@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sunny — Premium Video Editor & Filmmaker from India. Crafting cinematic stories frame by frame." />
+  <meta name="keywords" content="video editor, filmmaker, color grading, motion graphics, India, cinematic" />
+  <meta property="og:title" content="Sunny · Video Editor & Filmmaker" />
+  <meta property="og:description" content="Crafting Stories Frame by Frame — 3+ years of cinematic excellence." />
+  <title>Sunny · Video Editor &amp; Filmmaker</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" referrerpolicy="no-referrer" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════
+       1. ANNOUNCEMENT BAR
+  ══════════════════════════════════════════ -->
+  <div class="announce-bar">
+    <span><i class="fa-solid fa-wand-magic-sparkles"></i> Open for collaborations &mdash; Let's create something cinematic!</span>
+    <span><i class="fa-solid fa-envelope"></i> sunny24yw@gmail.com</span>
+    <span><i class="fa-solid fa-phone"></i> +91 81069 04433</span>
+  </div>
+
+  <!-- ══════════════════════════════════════════
+       2. NAVBAR
+  ══════════════════════════════════════════ -->
+  <nav id="navbar" class="navbar">
+    <div class="nav-inner">
+      <!-- Logo -->
+      <a href="#" class="nav-logo" aria-label="Sunny Home">
+        <img src="assests/Sunny_Editor_Logo_Transparent.png" alt="Sunny Logo" class="nav-logo-img" />
+        <span class="nav-logo-text">SUNNY</span>
+      </a>
+
+      <!-- Nav Links -->
+      <ul id="navLinks" class="nav-links" role="list">
+        <li><a href="#" class="nav-item">Home</a></li>
+        <li><a href="#about" class="nav-item">About</a></li>
+        <li><a href="#work" class="nav-item">Work</a></li>
+        <li><a href="#tools" class="nav-item">Tools</a></li>
+        <li><a href="#reviews" class="nav-item">Reviews</a></li>
+        <li><a href="#collab" class="nav-item nav-item--cta">Collab</a></li>
+      </ul>
+
+      <!-- Hamburger -->
+      <button id="menuToggle" class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ══════════════════════════════════════════
+       3. HERO SECTION
+  ══════════════════════════════════════════ -->
+  <section class="hero reveal" id="home">
+    <!-- Animated background orbs -->
+    <div class="orb orb-1" aria-hidden="true"></div>
+    <div class="orb orb-2" aria-hidden="true"></div>
+    <div class="orb orb-3" aria-hidden="true"></div>
+    <div class="particles-bg" aria-hidden="true"></div>
+
+    <div class="hero-inner">
+      <!-- Left: Content -->
+      <div class="hero-content">
+        <div class="tagline-badge">
+          <span><i class="fa-solid fa-film"></i> Video Editor &amp; Filmmaker</span>
+        </div>
+
+        <h1 class="hero-heading">
+          Crafting Stories<br />
+          <span class="gradient-text">Frame by Frame</span>
+        </h1>
+
+        <p class="hero-sub">Based in India &nbsp;&bull;&nbsp; 3+ Years &nbsp;&bull;&nbsp; Cinematic Excellence</p>
+
+        <div class="hero-cta">
+          <button id="btnOpenReel" class="btn-primary" aria-label="Watch Showreel">
+            <i class="fa-solid fa-play"></i> Watch Showreel
+          </button>
+          <a href="#collab" class="btn-secondary">Let's Collab <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <!-- Stats -->
+        <div class="hero-stats" role="list">
+          <div class="stat-item" role="listitem">
+            <span class="stat-num">50+</span>
+            <span class="stat-label">Projects</span>
+          </div>
+          <div class="stat-sep" aria-hidden="true"></div>
+          <div class="stat-item" role="listitem">
+            <span class="stat-num">30+</span>
+            <span class="stat-label">Clients</span>
+          </div>
+          <div class="stat-sep" aria-hidden="true"></div>
+          <div class="stat-item" role="listitem">
+            <span class="stat-num">3+</span>
+            <span class="stat-label">Years</span>
+          </div>
+          <div class="stat-sep" aria-hidden="true"></div>
+          <div class="stat-item" role="listitem">
+            <span class="stat-num">5 <i class="fa-solid fa-star" style="font-size: 0.65em; color: var(--gold); vertical-align: middle;"></i></span>
+            <span class="stat-label">Rating</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: 3D Floating Photo -->
+      <div class="hero-visual" aria-hidden="true">
+        <div class="hero-photo-frame">
+          <div class="hero-photo-glow"></div>
+          <img src="assests/SUNNY.png" alt="Sunny — Video Editor" class="hero-photo" />
+          <div class="hero-photo-ring hero-photo-ring--1"></div>
+          <div class="hero-photo-ring hero-photo-ring--2"></div>
+          <div class="floating-badge floating-badge--1">
+            <i class="fa-solid fa-film"></i> Cinematic
+          </div>
+          <div class="floating-badge floating-badge--2">
+            <i class="fa-solid fa-wand-magic-sparkles"></i> Creative
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="scroll-indicator" aria-hidden="true">
+      <span class="scroll-line"></span>
+      <span class="scroll-dot"></span>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       4. ABOUT SECTION
+  ══════════════════════════════════════════ -->
+  <section id="about" class="section about-section reveal">
+    <div class="container">
+      <div class="about-grid">
+
+        <!-- Left: Photo Card -->
+        <div class="about-photo-col">
+          <div class="about-photo-card tilt-card">
+            <div class="about-photo-glow"></div>
+            <img src="assests/sunny[au].jpeg" alt="Sunny — About" class="about-photo" />
+            <div class="about-photo-overlay">
+              <span class="about-photo-caption"><i class="fa-solid fa-location-dot"></i> India</span>
+            </div>
+            <div class="about-photo-border"></div>
+          </div>
+        </div>
+
+        <!-- Right: Info -->
+        <div class="about-info-col">
+          <p class="section-label">GET TO KNOW ME</p>
+          <h2 class="section-heading">About <span class="gradient-text">Sunny</span></h2>
+
+          <p class="about-bio">
+            I'm Sunny, a passionate video editor and filmmaker from India. I transform raw footage into
+            cinematic masterpieces that captivate audiences and elevate brands. From short reels to full
+            documentaries, every frame tells a story.
+          </p>
+
+          <!-- Skill Bars -->
+          <div class="skills-list" role="list">
+            <div class="skill-item" role="listitem">
+              <div class="skill-header">
+                <span class="skill-name">Video Editing</span>
+                <span class="skill-pct">95%</span>
+              </div>
+              <div class="skill-bar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" role="progressbar">
+                <div class="skill-fill" style="--pct: 95%"></div>
+              </div>
+            </div>
+            <div class="skill-item" role="listitem">
+              <div class="skill-header">
+                <span class="skill-name">Color Grading</span>
+                <span class="skill-pct">90%</span>
+              </div>
+              <div class="skill-bar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" role="progressbar">
+                <div class="skill-fill" style="--pct: 90%"></div>
+              </div>
+            </div>
+            <div class="skill-item" role="listitem">
+              <div class="skill-header">
+                <span class="skill-name">Motion Graphics</span>
+                <span class="skill-pct">85%</span>
+              </div>
+              <div class="skill-bar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" role="progressbar">
+                <div class="skill-fill" style="--pct: 85%"></div>
+              </div>
+            </div>
+            <div class="skill-item" role="listitem">
+              <div class="skill-header">
+                <span class="skill-name">Filmmaking</span>
+                <span class="skill-pct">88%</span>
+              </div>
+              <div class="skill-bar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" role="progressbar">
+                <div class="skill-fill" style="--pct: 88%"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Chips -->
+          <div class="contact-chips" role="list">
+            <a href="mailto:sunny24yw@gmail.com" class="contact-chip" role="listitem" aria-label="Send email">
+              <i class="fa-solid fa-envelope"></i> sunny24yw@gmail.com
+            </a>
+            <a href="tel:+918106904433" class="contact-chip" role="listitem" aria-label="Call Sunny">
+              <i class="fa-solid fa-phone"></i> +91 81069 04433
+            </a>
+            <a href="https://wa.me/918106904433" class="contact-chip contact-chip--wa" role="listitem" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Sunny">
+              <i class="fa-brands fa-whatsapp"></i> WhatsApp
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       5. SHOWCASE / WORK SECTION
+  ══════════════════════════════════════════ -->
+  <section id="work" class="section showcase-section reveal">
+    <div class="container">
+      <p class="section-label">MY PORTFOLIO</p>
+      <h2 class="section-heading">Featured <span class="gradient-text">Work</span></h2>
+
+      <!-- Tab Buttons -->
+      <div class="tab-row" role="tablist" aria-label="Work categories">
+        <button class="tab-btn active" data-target="all-work" role="tab" aria-selected="true" aria-controls="cat-video-editing cat-filmmaking">
+          All Work
+        </button>
+        <button class="tab-btn" data-target="video-editing" role="tab" aria-selected="false" aria-controls="cat-video-editing">
+          Video Editing
+        </button>
+        <button class="tab-btn" data-target="filmmaking" role="tab" aria-selected="false" aria-controls="cat-filmmaking">
+          Filmmaking
+        </button>
+      </div>
+
+      <!-- Panels as Interactive 3D Work Cards with Action Buttons (No Embedded Player) -->
+      <div class="showcase-panels">
+        <!-- Video Editing Work Card -->
+        <div id="cat-video-editing" class="showcase-panel" role="tabpanel">
+          <div class="work-card">
+            <div class="work-card-media">
+              <img src="assests/ChatGPT Image Oct 6, 2026, 07_31_33 PM.png" alt="Video Editing Work" class="work-cover-img" />
+              <div class="work-media-overlay"></div>
+              <div class="work-badge"><i class="fa-solid fa-scissors"></i> Video Editing</div>
+              <a
+                href="https://youtube.com/playlist?list=PLGma-5oyS8Fs&si=Jh-w1b9B1L86adL8"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="work-floating-play-btn"
+                aria-label="Watch Video Editing Playlist on YouTube"
+              >
+                <i class="fa-solid fa-play"></i>
+              </a>
+            </div>
+
+            <div class="work-card-body">
+              <div class="work-meta-row">
+                <span class="work-tag"><i class="fa-brands fa-youtube"></i> YouTube Playlist</span>
+                <span class="work-duration"><i class="fa-solid fa-layer-group"></i> Multiple Edits</span>
+              </div>
+              <h3 class="work-card-title">Commercial &amp; Cinematic Video Editing</h3>
+              <p class="work-card-desc">
+                High-energy pacing, seamless transitions, sound design, and custom color grading tailored for YouTube creators, social media brands, and commercials.
+              </p>
+
+              <div class="work-tags-list">
+                <span class="pill-tag"><i class="fa-solid fa-bolt"></i> Fast Pacing</span>
+                <span class="pill-tag"><i class="fa-solid fa-wand-magic-sparkles"></i> Sound Design</span>
+                <span class="pill-tag"><i class="fa-solid fa-palette"></i> Color Grade</span>
+                <span class="pill-tag"><i class="fa-solid fa-film"></i> 4K Quality</span>
+              </div>
+
+              <div class="work-card-actions">
+                <a
+                  href="https://youtube.com/playlist?list=PLGma-5oyS8Fs&si=Jh-w1b9B1L86adL8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-work-launch"
+                >
+                  <i class="fa-brands fa-youtube"></i> Watch Work on YouTube
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+                <a href="#collab" class="btn-work-collab">
+                  Hire for Editing <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Filmmaking Projects Work Card -->
+        <div id="cat-filmmaking" class="showcase-panel" role="tabpanel">
+          <div class="work-card">
+            <div class="work-card-media">
+              <img src="assests/ChatGPT Image Oct 6, 2026, 07_35_14 PM.png" alt="Filmmaking Projects" class="work-cover-img" />
+              <div class="work-media-overlay"></div>
+              <div class="work-badge"><i class="fa-solid fa-video"></i> Filmmaking</div>
+              <a
+                href="https://youtube.com/playlist?list=PLYGj7Y31_qOg&si=Vjyg1CqhQaswt34V"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="work-floating-play-btn"
+                aria-label="Watch Filmmaking Playlist on YouTube"
+              >
+                <i class="fa-solid fa-play"></i>
+              </a>
+            </div>
+
+            <div class="work-card-body">
+              <div class="work-meta-row">
+                <span class="work-tag"><i class="fa-brands fa-youtube"></i> YouTube Playlist</span>
+                <span class="work-duration"><i class="fa-solid fa-camera"></i> Directed &amp; Edited</span>
+              </div>
+              <h3 class="work-card-title">Narrative Filmmaking &amp; Cinematic Direction</h3>
+              <p class="work-card-desc">
+                Immersive visual storytelling, evocative lighting, mood-driven cinematic frames, and director-level narrative execution that leaves a lasting emotional impact.
+              </p>
+
+              <div class="work-tags-list">
+                <span class="pill-tag"><i class="fa-solid fa-eye"></i> Visual Storytelling</span>
+                <span class="pill-tag"><i class="fa-solid fa-sliders"></i> Mood Direction</span>
+                <span class="pill-tag"><i class="fa-solid fa-compass"></i> Composition</span>
+                <span class="pill-tag"><i class="fa-solid fa-sun"></i> Atmospheric Light</span>
+              </div>
+
+              <div class="work-card-actions">
+                <a
+                  href="https://youtube.com/playlist?list=PLYGj7Y31_qOg&si=Vjyg1CqhQaswt34V"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-work-launch btn-work-launch--gold"
+                >
+                  <i class="fa-brands fa-youtube"></i> Watch Work on YouTube
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+                <a href="#collab" class="btn-work-collab">
+                  Hire for Directing <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       6. ARSENAL / TOOLS SECTION
+  ══════════════════════════════════════════ -->
+  <section id="tools" class="section tools-section reveal">
+    <div class="container">
+      <p class="section-label">WHAT I USE</p>
+      <h2 class="section-heading">My <span class="gradient-text">Arsenal</span></h2>
+
+      <div class="tools-grid">
+
+        <!-- Adobe Premiere Pro -->
+        <div class="tool-card" role="article" tabindex="0" aria-label="Adobe Premiere Pro - Tap to flip">
+          <div class="tool-card-inner">
+            <div class="tool-card-front tool-face">
+              <div class="tool-logo-wrap">
+                <img src="assests/adobe-premiere-pro.png" alt="Adobe Premiere Pro" class="tool-logo" />
+              </div>
+              <h3 class="tool-name">Adobe Premiere Pro</h3>
+              <span class="tool-hover-hint"><i class="fa-solid fa-arrows-rotate"></i> Tap to flip</span>
+            </div>
+            <div class="tool-card-back tool-face">
+              <i class="fa-solid fa-film tool-back-icon"></i>
+              <h3 class="tool-name">Premiere Pro</h3>
+              <p class="tool-desc">My primary editing powerhouse for professional timeline editing, multi-cam workflows, dynamic pacing, and seamless Adobe ecosystem integration.</p>
+              <span class="tool-flip-back-hint"><i class="fa-solid fa-rotate-left"></i> Tap to return</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- After Effects -->
+        <div class="tool-card" role="article" tabindex="0" aria-label="Adobe After Effects - Tap to flip">
+          <div class="tool-card-inner">
+            <div class="tool-card-front tool-face">
+              <div class="tool-logo-wrap">
+                <img src="assests/after-effects.png" alt="Adobe After Effects" class="tool-logo" />
+              </div>
+              <h3 class="tool-name">After Effects</h3>
+              <span class="tool-hover-hint"><i class="fa-solid fa-arrows-rotate"></i> Tap to flip</span>
+            </div>
+            <div class="tool-card-back tool-face">
+              <i class="fa-solid fa-wand-magic-sparkles tool-back-icon"></i>
+              <h3 class="tool-name">After Effects</h3>
+              <p class="tool-desc">Motion graphics, cinematic title sequences, 3D tracking, and custom visual effects that elevate every project to production quality.</p>
+              <span class="tool-flip-back-hint"><i class="fa-solid fa-rotate-left"></i> Tap to return</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- CapCut -->
+        <div class="tool-card" role="article" tabindex="0" aria-label="CapCut - Tap to flip">
+          <div class="tool-card-inner">
+            <div class="tool-card-front tool-face">
+              <div class="tool-logo-wrap">
+                <img src="assests/capcut.png" alt="CapCut" class="tool-logo" />
+              </div>
+              <h3 class="tool-name">CapCut</h3>
+              <span class="tool-hover-hint"><i class="fa-solid fa-arrows-rotate"></i> Tap to flip</span>
+            </div>
+            <div class="tool-card-back tool-face">
+              <i class="fa-solid fa-mobile-screen tool-back-icon"></i>
+              <h3 class="tool-name">CapCut</h3>
+              <p class="tool-desc">Fast, trendy, high-retention editing for Instagram Reels, YouTube Shorts, and viral-focused mobile content that hooks viewers instantly.</p>
+              <span class="tool-flip-back-hint"><i class="fa-solid fa-rotate-left"></i> Tap to return</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Wondershare Filmora -->
+        <div class="tool-card" role="article" tabindex="0" aria-label="Wondershare Filmora - Tap to flip">
+          <div class="tool-card-inner">
+            <div class="tool-card-front tool-face">
+              <div class="tool-logo-wrap">
+                <img src="assests/wondershare-filmora.png" alt="Wondershare Filmora" class="tool-logo" />
+              </div>
+              <h3 class="tool-name">Wondershare Filmora</h3>
+              <span class="tool-hover-hint"><i class="fa-solid fa-arrows-rotate"></i> Tap to flip</span>
+            </div>
+            <div class="tool-card-back tool-face">
+              <i class="fa-solid fa-video tool-back-icon"></i>
+              <h3 class="tool-name">Filmora</h3>
+              <p class="tool-desc">Rapid turnaround editing, creative transitions, audio ducking, and polished delivery for dynamic client presentation videos.</p>
+              <span class="tool-flip-back-hint"><i class="fa-solid fa-rotate-left"></i> Tap to return</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       7. REVIEWS SECTION
+  ══════════════════════════════════════════ -->
+  <section id="reviews" class="section reviews-section reveal">
+    <div class="container">
+      <p class="section-label">WHAT CLIENTS SAY</p>
+      <h2 class="section-heading">Client <span class="gradient-text">Reviews</span></h2>
+
+      <div id="reviewsGrid" class="reviews-grid" role="list" aria-live="polite" aria-label="Client reviews">
+        <!-- Dynamically loaded by script.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       8. FEEDBACK / LEAVE A REVIEW SECTION
+  ══════════════════════════════════════════ -->
+  <section id="feedback" class="section feedback-section reveal">
+    <div class="container container--narrow">
+      <p class="section-label">SHARE YOUR EXPERIENCE</p>
+      <h2 class="section-heading">Leave a <span class="gradient-text">Review</span></h2>
+
+      <form id="feedbackForm" class="feedback-form" novalidate aria-label="Leave a review form">
+        <input type="hidden" id="fbRatingVal" value="5" />
+
+        <!-- 1. Star Rating -->
+        <div class="form-group rating-input-group">
+          <label class="rating-label">Rate Your Experience</label>
+          <div class="star-rating-select" role="group" aria-label="Star rating">
+            <span class="star-btn active" data-rating="1" role="radio" aria-checked="false" tabindex="0" aria-label="1 star">
+              <i class="fa-solid fa-star"></i>
+            </span>
+            <span class="star-btn active" data-rating="2" role="radio" aria-checked="false" tabindex="0" aria-label="2 stars">
+              <i class="fa-solid fa-star"></i>
+            </span>
+            <span class="star-btn active" data-rating="3" role="radio" aria-checked="false" tabindex="0" aria-label="3 stars">
+              <i class="fa-solid fa-star"></i>
+            </span>
+            <span class="star-btn active" data-rating="4" role="radio" aria-checked="false" tabindex="0" aria-label="4 stars">
+              <i class="fa-solid fa-star"></i>
+            </span>
+            <span class="star-btn active" data-rating="5" role="radio" aria-checked="true" tabindex="0" aria-label="5 stars">
+              <i class="fa-solid fa-star"></i>
+            </span>
+            <span class="star-text-badge" id="starRatingText">5.0 / 5.0 (Excellent)</span>
+          </div>
+        </div>
+
+        <!-- 2. Your Name -->
+        <div class="form-group">
+          <label for="fbName" class="sr-only">Your Name</label>
+          <input id="fbName" type="text" placeholder="Your Name *" required autocomplete="name" />
+        </div>
+
+        <!-- 3. Feedback / Review -->
+        <div class="form-group">
+          <label for="fbMessage" class="sr-only">Your Feedback</label>
+          <textarea id="fbMessage" placeholder="Your Feedback &amp; Review *" rows="4" required></textarea>
+        </div>
+
+        <button type="submit" class="btn-submit">
+          <i class="fa-solid fa-paper-plane"></i> Submit Review
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       9. COLLAB / SEND WORK SECTION
+  ══════════════════════════════════════════ -->
+  <section id="collab" class="section collab-section reveal">
+    <div class="container">
+      <p class="section-label">START A PROJECT</p>
+      <h2 class="section-heading">Let's <span class="gradient-text">Collab</span></h2>
+      <p class="section-tagline">Send me your project brief and let's create something amazing!</p>
+
+      <div class="collab-grid">
+
+        <!-- Left: Contact Cards -->
+        <div class="collab-contact">
+          <h3 class="collab-contact-heading">Get In Touch</h3>
+
+          <a href="mailto:sunny24yw@gmail.com" class="contact-card" aria-label="Email Sunny">
+            <div class="contact-card-icon">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="contact-card-info">
+              <span class="contact-card-label">Email</span>
+              <span class="contact-card-value">sunny24yw@gmail.com</span>
+            </div>
+            <i class="fa-solid fa-arrow-right contact-card-arrow"></i>
+          </a>
+
+          <a href="tel:+918106904433" class="contact-card" aria-label="Call Sunny">
+            <div class="contact-card-icon">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="contact-card-info">
+              <span class="contact-card-label">Phone</span>
+              <span class="contact-card-value">+91 81069 04433</span>
+            </div>
+            <i class="fa-solid fa-arrow-right contact-card-arrow"></i>
+          </a>
+
+          <a href="https://wa.me/918106904433" class="contact-card contact-card--wa" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Sunny">
+            <div class="contact-card-icon">
+              <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            <div class="contact-card-info">
+              <span class="contact-card-label">WhatsApp</span>
+              <span class="contact-card-value">+91 81069 04433</span>
+            </div>
+            <i class="fa-solid fa-arrow-right contact-card-arrow"></i>
+          </a>
+
+          <div class="collab-availability" id="collabAvailability">
+            <span class="availability-dot"></span>
+            <span id="availabilityText">Available for new projects</span>
+          </div>
+        </div>
+
+        <!-- Right: Send Work Form -->
+        <div class="collab-form-col">
+          <form id="sendWorkForm" class="send-work-form" novalidate aria-label="Send project brief form">
+            <input type="hidden" id="selectedService" value="Video Editing" />
+
+            <!-- Service Chips -->
+            <div id="serviceChips" class="chips-row" role="group" aria-label="Select a service">
+              <span class="chip active" data-service="Video Editing" role="radio" aria-checked="true" tabindex="0">Video Editing</span>
+              <span class="chip" data-service="Filmmaking" role="radio" aria-checked="false" tabindex="0">Filmmaking</span>
+              <span class="chip" data-service="Color Grading" role="radio" aria-checked="false" tabindex="0">Color Grading</span>
+              <span class="chip" data-service="Motion Graphics" role="radio" aria-checked="false" tabindex="0">Motion Graphics</span>
+              <span class="chip" data-service="Reel Creation" role="radio" aria-checked="false" tabindex="0">Reel Creation</span>
+              <span class="chip" data-service="YouTube Video" role="radio" aria-checked="false" tabindex="0">YouTube Video</span>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="clientName" class="sr-only">Your Name</label>
+                <input id="clientName" type="text" placeholder="Your Name *" required autocomplete="name" />
+              </div>
+              <div class="form-group">
+                <label for="clientEmail" class="sr-only">Your Email</label>
+                <input id="clientEmail" type="email" placeholder="Your Email *" required autocomplete="email" />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="clientPhone" class="sr-only">Phone Number</label>
+                <input id="clientPhone" type="tel" placeholder="Phone Number (WhatsApp / Call) *" required autocomplete="tel" />
+              </div>
+              <div class="form-group">
+                <label for="projectTimeline" class="sr-only">Project Timeline</label>
+                <select id="projectTimeline" aria-label="Select project timeline">
+                  <option value="ASAP">ASAP</option>
+                  <option value="Within 3 days">Within 3 days</option>
+                  <option value="Within a week" selected>Within a week</option>
+                  <option value="2 weeks">2 weeks</option>
+                  <option value="1 month+">1 month+</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="footageLink" class="sr-only">Footage or Reference Link</label>
+              <input id="footageLink" type="url" placeholder="Footage / Reference Link (optional)" />
+            </div>
+
+            <div class="form-group">
+              <label for="projectBrief" class="sr-only">Project Brief</label>
+              <textarea id="projectBrief" placeholder="Tell me about your project vision... *" rows="4" required></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit btn-collab">
+              <i class="fa-solid fa-paper-plane"></i> Submit Project Brief
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       10. FOOTER
+  ══════════════════════════════════════════ -->
+  <footer class="site-footer">
+    <div class="footer-glow" aria-hidden="true"></div>
+    <div class="container">
+      <div class="footer-grid">
+
+        <!-- Brand -->
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <img src="assests/Sunny_Editor_Logo_Transparent.png" alt="Sunny Logo" class="footer-logo-img" />
+            <span class="footer-logo-text">SUNNY</span>
+          </div>
+          <p class="footer-tagline">Crafting Stories Frame by Frame.<br />Every pixel. Every cut. Every emotion.</p>
+          <!-- Socials -->
+          <div class="footer-socials" role="list">
+            <a href="https://www.youtube.com/@SunnyEditor" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="YouTube" role="listitem">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+            <a href="https://www.instagram.com/sunny_editor_" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram" role="listitem">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="mailto:sunny24yw@gmail.com" class="social-link" aria-label="Email" role="listitem">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="https://wa.me/918106904433" class="social-link social-link--wa" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" role="listitem">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Nav -->
+        <div class="footer-nav">
+          <h4 class="footer-nav-heading">Quick Links</h4>
+          <ul role="list">
+            <li><a href="#" class="footer-link">Home</a></li>
+            <li><a href="#about" class="footer-link">About</a></li>
+            <li><a href="#work" class="footer-link">Work</a></li>
+            <li><a href="#tools" class="footer-link">Tools</a></li>
+            <li><a href="#reviews" class="footer-link">Reviews</a></li>
+            <li><a href="#collab" class="footer-link">Collab</a></li>
+          </ul>
+        </div>
+
+        <!-- Services -->
+        <div class="footer-services">
+          <h4 class="footer-nav-heading">Services</h4>
+          <ul role="list">
+            <li><a href="#collab" class="footer-link">Video Editing</a></li>
+            <li><a href="#collab" class="footer-link">Filmmaking</a></li>
+            <li><a href="#collab" class="footer-link">Color Grading</a></li>
+            <li><a href="#collab" class="footer-link">Motion Graphics</a></li>
+            <li><a href="#collab" class="footer-link">Reel Creation</a></li>
+            <li><a href="#collab" class="footer-link">YouTube Videos</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom">
+        <p class="footer-copy">
+          &copy; <span id="currentYear"></span> Sunny. All Rights Reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ══════════════════════════════════════════
+       11. REEL MODAL
+  ══════════════════════════════════════════ -->
+  <div id="reelModal" class="reel-modal" role="dialog" aria-modal="true" aria-label="Showreel video" aria-hidden="true">
+    <div id="closeReelBackdrop" class="reel-backdrop"></div>
+    <div class="reel-container">
+      <button id="btnCloseReel" class="reel-close" aria-label="Close showreel">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <video id="teaserVideo" src="assests/hukum.mp4" controls playsinline preload="none"></video>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════
+       12. TOAST NOTIFICATION
+  ══════════════════════════════════════════ -->
+  <div id="toastNotification" class="toast-notification" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-icon">
+      <i class="fa-solid fa-circle-check"></i>
+    </div>
+    <div class="toast-body">
+      <strong id="toastTitle">Success</strong>
+      <p id="toastMessage">Done!</p>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════
+       SCROLL REVEAL OBSERVER
+  ══════════════════════════════════════════ -->
+  <script>
+    const revealEls = document.querySelectorAll('.reveal');
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); } });
+    }, { threshold: 0.1 });
+    revealEls.forEach(el => revealObserver.observe(el));
+  </script>
+
+  <!-- ══════════════════════════════════════════
+       13. FIREBASE + MAIN SCRIPT
+  ══════════════════════════════════════════ -->
+  <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-analytics-compat.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
